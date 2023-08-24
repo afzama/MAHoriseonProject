@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+/* Used this resource as a reference: https://www.w3schools.com/html/html5_semantic_elements.asp */
+
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -8,12 +10,11 @@
 </head>
 
 <body>
-    <header id="top">
+    <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <img src="./assets/images/digital-marketing-meeting.jpg" </header>
 
-
-        <section>
+        <nav>
+        <ul>
             <li>
                 <a href="#search-engine-optimization">Search Engine Optimization</a>
             </li>
@@ -23,11 +24,18 @@
             <li>
                 <a href="#social-media-marketing">Social Media Marketing</a>
             </li>
-        </section>
+        </ul>
+        </nav>
 
-        <main>
+        <header>
+        
+        <figure class="hero" alt="This image is a photo of four people collaborating while sitting at a table in a conference table. 
+            There is a pile of printed papers scattered at the center of the table that they are all looking at and one of them is grabbing a page from. 
+            There is a laptop and four glasses of water on the table."></figure>
+        
+        <article class="content">
     
-            <section class="search-engine-optimization">
+            <section id="search-engine-optimization" class="search-engine-optimization">
                 <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
                 <h2>Search Engine Optimization</h2>
                 <p>
@@ -56,10 +64,10 @@
                     and increase your lead generation.
                 </p>
             </section>
+        </article>
 
-            <section class="benefits"></section>
-
-            <section class="benefit-lead">
+        <aside id="aside1" class="benefits">
+            <section class="benefits-lead">
                 <h3>Lead Generation</h3>
                 <img src="./assets/images/lead-generation.png" />
                 <p>
@@ -67,7 +75,6 @@
                     directly to your website.
                 </p>
             </section>
-
             <section class="benefit-brand">
                 <h3>Brand Awareness</h3>
                 <img src="./assets/images/brand-awareness.png" />
@@ -76,7 +83,6 @@
                     visibility for your business.
                 </p>
             </section>
-
             <section class="benefit-cost">
                 <h3>Cost Management</h3>
                 <img src="./assets/images/cost-management.png" />
@@ -85,7 +91,8 @@
                     longer need to advertise your page.
                 </p>
             </section>
-        </main>
+        </aside> 
+
         <footer class="footer">
             <h2>Made with ❤️️ by Horiseon</h2>
             <p>
