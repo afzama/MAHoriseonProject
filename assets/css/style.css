@@ -18,9 +18,9 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    color: #d9dcd6;
 }
-
-header h1 span {
+.header h1 .seo {
     color: #d9dcd6;
 }
 
@@ -59,9 +59,9 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*Changed content to article to group the section.*/
 article {
-    width: 77%;
+    width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
@@ -75,8 +75,78 @@ article {
     float: right;
     margin-left: 25px;
 }
-  /*Purpose is to consolidate article section values. */
-  article section {
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*Purpose to consolidate h3 section values. */
+aside section h3 {
+    margin: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+/*
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+*/
+/*Purpose to consolidate img section values. */
+aside img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+*/
+/*Purpose is to consolidate article section values. */
+article section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -144,107 +214,7 @@ article section h2 {
     font-size: 36px;
 }
 */
-.aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-    color: #ffffff;
-}
-/*Purpose to consolidate h3 section values. */
-aside section h3 {
-    margin: 10px;
-    text-align: center;
-    color: #ffffff;
-}
-/*
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-*/
-/*Purpose to consolidate img section values. */
-aside img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/*
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-*/
-
-/*Purpose to consolidate h3 aside section values. */
-    aside section h3 {
-        margin-bottom: 10px;
-        text-align: center;
-    }
-    /*
-    .benefit-lead h3 {
-        margin-bottom: 10px;
-        text-align: center;
-    }
-    .benefit-brand h3 {
-        margin-bottom: 10px;
-        text-align: center;
-    }
-    .benefit-cost h3 {
-        margin-bottom: 10px;
-        text-align: center;
-    }
-    */
-    
-    /*Purpose to consolidate aside img values. */
-    aside img {
-        display: block;
-        margin: 10px auto;
-        max-width: 150px;
-    }
-    /*
-    .benefit-lead img {
-        display: block;
-        margin: 10px auto;
-        max-width: 150px;
-    }
-    .benefit-brand img {
-        display: block;
-        margin: 10px auto;
-        max-width: 150px;
-    }
-    .benefit-cost img {
-        display: block;
-        margin: 10px auto;
-        max-width: 150px;
-    }
-    */
-  
     .footer {
         padding: 30px;
         clear: both;
