@@ -1,15 +1,13 @@
 # MAHoriseonProject
 
-User Story
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
+# User Story 
+A marketing agency wanted a codebase that follows accessibility standards so that website is optimized for search engines
 
-Description
+# Description
 This repository contains HTML and CSS code to develop an accessible webpage for Horiseon Social Services, Inc.©2023.
 Horiseon provides business establishing services for organizations seeking expertise with Search Engine Optimization, Online reputation management, & social media marketing.
 
-Code Details
+# Code Details
 To make the code accessible the following refactoring has been conducted to the code:
 1. All <div>, <span> HTML elements have been removed with <nav>
 2. All images include a detailed, <alt> description of the image
@@ -17,13 +15,17 @@ To make the code accessible the following refactoring has been conducted to the 
 4. All headings follow a sequential order
 5. The <sections> defining elements of Horiseon concepts seperately in three sections have been consolidated
 
-Reference Guides
+# Reference Guides
 The following is a list of reference guides following to complete this assignment
 1. https://www.w3schools.com/html/html5_semantic_elements.asp
 2. https://www.w3schools.com/tags/default.asp
 
-Screenshot of Website
+# Screenshot of Website
 ![/Users/mariaafzal/bootcamp/MAHoriseonProject/assets/images/Page Top.png] (URL "Page Top")
 ![/Users/mariaafzal/bootcamp/MAHoriseonProject/assets/images/Page Bottom.jpeg] (URL "Page Bottom")
 
-Published Github Pages
+# Published Github Pages
+https://afzama.github.io/MAHoriseonProject/
+
+# GitHub Repository url
+https://github.com/afzama/MAHoriseonProject
