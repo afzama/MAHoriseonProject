@@ -9,11 +9,11 @@ Horiseon provides business establishing services for organizations seeking exper
 
 # Code Details
 To make the code accessible the following refactoring has been conducted to the code:
-1. All <div>, <span> HTML elements have been removed with <nav>
-2. All images include a detailed, <alt> description of the image
-3. All elements follow a logical structure independent of styling and positioning
-4. All headings follow a sequential order
-5. The <sections> defining elements of Horiseon concepts seperately in three sections have been consolidated
+1. All non-semantic HTML elements have been removed (example div replaced with nav).
+2. All images include an ALT detailed description of the image.
+3. All elements follow a logical structure independent of styling and positioning.
+4. All headings follow a sequential order.
+5. The SECTIONS defining elements of Horiseon concepts seperately in three sections have been consolidated.
 
 # Reference Guides
 The following is a list of reference guides following to complete this assignment
