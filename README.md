@@ -21,8 +21,7 @@ The following is a list of reference guides following to complete this assignmen
 2. https://www.w3schools.com/tags/default.asp
 
 # Screenshot of Website
-![/Users/mariaafzal/bootcamp/MAHoriseonProject/assets/images/Page Top.png] (URL "Page Top")
-![/Users/mariaafzal/bootcamp/MAHoriseonProject/assets/images/Page Bottom.jpeg] (URL "Page Bottom")
+Included in images as 'page top' and 'page bottom'.
 
 # Published Github Pages
 https://afzama.github.io/MAHoriseonProject/
