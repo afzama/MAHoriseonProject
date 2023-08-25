@@ -61,7 +61,7 @@ p {
 }
 /*Changed content to article to group the section.*/
 article {
-    width: 80%;
+    width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
